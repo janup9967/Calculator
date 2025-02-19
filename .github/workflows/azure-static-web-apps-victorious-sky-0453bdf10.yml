@@ -28,6 +28,8 @@ jobs:
           app_location: "/"          # Adjust as necessary
           api_location: ""          # Leave empty if not using an API
           output_location: "."      # Adjust as necessary
+          skip_deploy_on_missing_secrets: true
+
     ###### End of Repository/Build Configurations ######
 
   close_pull_request_job:
